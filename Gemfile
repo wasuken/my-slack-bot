@@ -8,3 +8,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "parseconfig"
 gem "slack-ruby-client"
 gem 'async-websocket'
+gem 'sequel'
+gem 'sqlite3'
